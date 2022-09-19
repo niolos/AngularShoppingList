@@ -1,62 +1,47 @@
-
-.body {
-  background: linear-gradient(#0284774f, #fff, #0284774f);
-  background-repeat: no-repeat;
-  height: 100%;
-}
-
-.main-container {
-  /* width: 25%; */
-  margin: 0 auto;
-  background: #fff;
-  box-shadow: 0 0 0.1rem #000;
-
-}
-
-.main-header {
-  background: #028476;
-  color: #fff;
+.tCon{
+  width:100vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   position: relative;
-  padding: 5px 0;
+  padding-top: 20px;
+}
+
+
+table{
+  width:70%;
+  border-collapse: collapse;
+  margin-top: 5%;
+  box-shadow: 8px 8px 24px -3px rgba(0,0,0,0.63);
 
 }
 
-.main-header h1 {
-  font-size: 20px;
+table tr th{
+  font-size: 22px;
+  color:white;
+  font-family: 'nav';
+  background: #8909bb;
+  height:40px
+}
+
+
+tr:nth-child(odd) td{
+  background-color: rgba(177, 127, 170, 0.534);
+  color: rgb(8, 8, 8);
+}
+
+tr:nth-child(even) td{
+  color:rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 1);
+
+}
+
+td{
   text-align: center;
+  font-size: 18px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.add-btn {
-  background: crimson;
-  position: absolute;
-  border-radius: 50%;
-  padding: 0 7px;
-  color: #fff;
-  font-size: 25px;
-  border: none;
-  box-shadow: 0 0 0.4rem #fff;
-  top: 7px;
-  right: 7px;
+.fa-trash-can{
+  color:red;
 }
-
-.del-btn {
-  background: #000;
-  color: #fff;
-  border-radius:10px;
-  padding: 5px;
-  width: 50px;
-}
-
-.list-item {
-  padding: 0 2rem 2rem 2rem;
-
-
-}
-
-.grid {
-display: grid;
-grid-template-columns: auto auto auto;
-/* grid-template-columns: 25% 25% 25% 25%; */
-}
-
-

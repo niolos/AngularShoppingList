@@ -1,0 +1,43 @@
+.catCon{
+    width: 100vw;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    padding:30px;
+    align-items: center;
+    position: relative;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.catCard{
+    width:20%;
+    height:150px;
+    background-color: rgb(166, 35, 218);
+    border-radius: 10px;
+    color:white;
+}
+
+h1{
+    width:100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.action{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.fa-trash-can{
+    color:red
+
+}
+
+.fa-trash-can:hover{
+    cursor: pointer;
+}

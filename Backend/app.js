@@ -11,12 +11,10 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 // Routers
-const indexRouter = require('./routes/item.routes')
-const categoryRouter = require('./routes/category.routes')
+const indexRouter = require('./routes/index.routes')
 
 // Routes
 app.use('/', indexRouter)
-app.use('/',categoryRouter)
 
 // Start Express App
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true }, (err) => {

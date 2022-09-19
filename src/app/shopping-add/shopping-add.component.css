@@ -20,8 +20,7 @@
 
 
 .shop-image{
-  background-image: radial-gradient(circle at 58% 50%, hsla(89,0%,28%,0.1) 0%, hsla(89,0%,28%,0.1) 60%,transparent 60%, transparent 98%,transparent 98%, transparent 100%),radial-gradient(circle at 36% 79%, hsla(89,0%,28%,0.1) 0%, hsla(89,0%,28%,0.1) 49%,transparent 49%, transparent 99%,transparent 99%, transparent 100%),radial-gradient(circle at 48% 23%, hsla(89,0%,28%,0.1) 0%, hsla(89,0%,28%,0.1) 50%,transparent 50%, transparent 87%,transparent 87%, transparent 100%),radial-gradient(circle at 55% 69%, hsla(89,0%,28%,0.1) 0%, hsla(89,0%,28%,0.1) 3%,transparent 3%, transparent 19%,transparent 19%, transparent 100%),radial-gradient(circle at 38% 69%, hsla(89,0%,28%,0.1) 0%, hsla(89,0%,28%,0.1) 15%,transparent 15%, transparent 33%,transparent 33%, transparent 100%),linear-gradient(45deg, rgb(14, 124, 138),rgb(44, 254, 203));
-  height: 32rem;
+  background-image: radial-gradient(circle at 70% 18%, hsla(126,0%,77%,0.05) 0%, hsla(126,0%,77%,0.05) 41%,transparent 41%, transparent 100%),radial-gradient(circle at 6% 94%, hsla(126,0%,77%,0.05) 0%, hsla(126,0%,77%,0.05) 52%,transparent 52%, transparent 100%),radial-gradient(circle at 93% 63%, hsla(126,0%,77%,0.05) 0%, hsla(126,0%,77%,0.05) 85%,transparent 85%, transparent 100%),radial-gradient(circle at 5% 85%, hsla(126,0%,77%,0.05) 0%, hsla(126,0%,77%,0.05) 8%,transparent 8%, transparent 100%),radial-gradient(circle at 49% 93%, hsla(126,0%,77%,0.05) 0%, hsla(126,0%,77%,0.05) 37%,transparent 37%, transparent 100%),linear-gradient(45deg, rgb(15, 5, 113),rgb(191, 90, 222));  height: 32rem;
   width: 25rem;
   border-radius: .4rem 0rem .0rem .4rem
 }
@@ -36,7 +35,7 @@ width: 22rem;
 .shopping-form h1{
   padding-top: 1rem;
   text-align: center;
-  color:  teal
+  color:  #8909bb
 
 }
 .shopping-form label{
@@ -66,7 +65,7 @@ width: 22rem;
 .shopping-form button{
   margin-top: 1.1rem;
   display: block;
-  background-color: teal;
+  background-color: #8909bb;
   border: none;
   padding: 15px;
   color: white;

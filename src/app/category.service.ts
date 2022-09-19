@@ -8,7 +8,7 @@ import { APIResponse } from './Models/api-response';
   providedIn: 'root'
 })
 export class CategoryService {
-  private API_URL = "http://localhost:3000/shopping_list";
+  private API_URL = "http://localhost:3000/categories";
 
   private _handleHttpErrors(retVal: any) {
     return (err: any) => {
@@ -32,10 +32,10 @@ export class CategoryService {
   }
 
   updateCategory(id:string, data:Category): Observable<APIResponse<Category>>{
-    return this.http.put<APIResponse<Category>>(this.API_URL + '/' + id, data).pipe(catchError(this._handleHttpErrors(new Category())));
+    return this.http.patch<APIResponse<Category>>(this.API_URL + '/' + id, data).pipe(catchError(this._handleHttpErrors(new Category())));
   }
 
-  deleteCategory(id:string): Observable<APIResponse<Category>>{
+  deleteCategory(id: any): Observable<APIResponse<Category>>{
     return this.http.delete<APIResponse<Category>>(this.API_URL + '/' + id).pipe(catchError(this._handleHttpErrors(new Category())));
   }
 

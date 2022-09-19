@@ -1,0 +1,22 @@
+<div class="shopping">
+    <div class="shop-image">
+      <div class="shop-details">
+        <div class="heading">
+          <h1>Category List</h1>
+          <p>Add New Category</p>
+        </div>
+  
+      </div>
+  
+    </div>
+    <div class="shopping-form">
+      <form (submit)="onSubmit()" [formGroup]="updateList">
+        <h1>Add New Category</h1>
+        <label for="">Category Name</label>
+        <input type="text" name="category" formControlName="category">
+        <button type="submit"> Add Category</button>
+      </form>
+    </div>
+  </div>
+  
+  

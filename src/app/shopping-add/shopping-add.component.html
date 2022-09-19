@@ -17,10 +17,7 @@
 
       <label for="">Category</label>
       <select name="" id="" formControlName="category">
-        <option value="Fruit">Fruit</option>
-        <option value="Dairy">Dairy</option>
-        <option value="Vegetable">Vegetable</option>
-        <option value="Staple">Staple</option>
+        <option value="{{cat.category}}" *ngFor="let cat of categories">{{cat.category}}</option>
       </select>
 
       <label for="">Price</label>
@@ -30,7 +27,7 @@
       <input type="number" formControlName="quantity" name="quantity">
 
 
-      <button type="submit"  > Add Item</button>
+      <button type="submit"> Add Item</button>
     </form>
   </div>
 </div>

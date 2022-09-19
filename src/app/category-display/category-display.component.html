@@ -1,0 +1,11 @@
+<div class="catCon">
+    <div class="catCard" *ngFor="let cat of categories">
+        <h1>{{cat.category}}</h1>
+        <div class="action">
+            <i class="fa-solid fa-trash-can" (click)="delCat(cat._id)"></i>
+            <a href="editCat/{{cat._id}}">
+                <i class="fa-regular fa-pen-to-square"></i>
+              </a>
+        </div>
+    </div>
+</div>
